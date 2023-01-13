@@ -54,10 +54,14 @@ nav .menu img{
 .menu-item{
     list-style: none;
     margin-right: 40px;
-    font-weight: 400;
-    font-size: 16px;
 }
 
+.menu-item a{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
 
 /* ------------------------------------------
          Top player and blog section
@@ -139,10 +143,35 @@ hr{
     width: 100%;
 }
 
+.course-title{
+    font-size: 20px; font-weight: 500;
+}
+
+.trainer{
+    color:#ED6B4F;
+    font-size: 16px;
+}
 
 
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.duration{
+    padding: 5px 8px;
+    background:#FFE4E8;
+    color: #FF5C70;
+    border-radius: 50px;
+}
 
+.fa-star{
+    color: #FFC014;
+}
+.empty{
+    color:#EAEAEA;
+}
 /* --------------------------------------
                 Footer styles
 ----------------------------------------- */
@@ -179,9 +208,9 @@ footer a{
 /* Top player and blogs section  */
 
 .container{
-    width: 87%;
-    padding: 15px;
-    margin: 10px;
+    width: 85%;
+    padding: 18px;
+    margin: 15px;
 }
 
 .player-name{
@@ -209,6 +238,7 @@ footer a{
 }
 .post-title{
     padding-bottom: 0;
+    font-size: 18px;
 }
 .posts{
     display: flex;
@@ -225,6 +255,7 @@ footer a{
     width: 100%;
 }
 .course-title{
-    font-size: 5px;
+    font-size: 18px;
+    
 }
 }
