@@ -237,7 +237,7 @@ footer a{
     gap: 20px;
 }
 .article-thum img{
-    width: 120px;
+    width: 140px;
     height: 80px;
 }
 .post-title{
@@ -260,6 +260,7 @@ footer a{
 }
 .course-title{
     font-size: 18px;
+    margin-top: 8px;
     
 }
 }
