@@ -1,0 +1,230 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* -----------------------------------------
+              Common designs 
+---------------------------------------------*/
+*{margin: 0;padding: 0; font-family: 'Poppins', sans-serif;}
+body{
+    background-color: #F3F1FF;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+/* ------------------------------------------
+               Header Design 
+------------------------------------------- */
+header{
+    background-color: #562EFF;
+    color: #fff;
+    height: 80px;
+    display: flex;
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav .menu img{
+    height: 40px;
+    width: 40px;
+}
+
+.logo{
+    font-size: 20px; font-weight: 500;
+}
+.menu{display: flex; align-items: center;}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* ------------------------------------------
+         Top player and blog section
+------------------------------------------- */
+.section-title{
+    margin: 0 0 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #562EFF;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.player-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.player img{
+    height: 56px;
+    width: 56px;
+}
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+}
+
+hr{
+    border:1px solid #d1d1d1; margin: 30px 0;
+}
+
+
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.article-thum img{
+    width: 180px;
+    height: 110px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.post-title{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.post-author{
+    color: #A6A6A6;
+}
+.post-info a{
+    text-decoration: none;
+    color: #562EFF;
+}
+
+
+
+
+/* --------------------------------------
+                Top Courses
+----------------------------------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.course img{
+    width: 100%;
+}
+
+
+
+
+
+/* --------------------------------------
+                Footer styles
+----------------------------------------- */
+footer{
+    padding: 30px; background-color: #353535; color: #fff; text-align: center; margin-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FF5C70;
+}
+
+
+
+/* --------------------------------------
+                Moblie design 
+----------------------------------------- */
+
+@media only screen and (max-width:576px) {
+    /* Responsive nav  */
+    header{
+        height: 70px;
+        padding: 0 20px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    
+    .menu-item{
+        margin-right: 15px;
+        font-size: 15px;
+    }
+/* Top player and blogs section  */
+
+.container{
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.player-name{
+    font-size: 15px;
+}
+
+.player img{
+    height: 50px;
+    width: 50px;
+}
+
+.top-players{
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 10px;
+}
+
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.article-thum img{
+    width: 120px;
+    height: 80px;
+}
+.post-title{
+    padding-bottom: 0;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Top courses  */
+.courses{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.course img{
+    width: 100%;
+}
+.course-title{
+    font-size: 5px;
+}
+}
