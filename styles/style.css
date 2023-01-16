@@ -228,9 +228,13 @@ footer a{
 
 .top-players{
     grid-template-columns: repeat(2,1fr);
-    grid-row-gap: 10px;
+    grid-row-gap: 25px;
 }
 
+.player{
+    flex-direction: column;
+    gap:8px;
+}
 .top-blogs{
     display: grid;
     grid-template-columns: repeat(1,1fr);
